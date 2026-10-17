@@ -1088,7 +1088,7 @@ unsafe fn create_controls(main: HWND) {
         lv,
         summary,
         status,
-        btn_all_running: vec![b_arr, b_ctl, b_closeall, b_hide, b_show, b_autosleep, b_close],
+        btn_all_running: vec![b_arr, b_closeall, b_hide, b_show, b_close],
         btn_all_rows: vec![b_del],
         start,
     });
